@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="css/game.css" />
+    <script src="js/game.js"></script>
+</head>
+<body onload="game.reset()">
+    <div id="game_container">
+        <img id="turn_image" src="img/x.bmp">
+        <p id="turn_label">turn</p>
+        <button id="reset_button" onclick="game.reset()">Reset</button>
+        <p id="duration_label">0</p>
+        <hr />
+        <table>
+            <tr>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(0)" id="0"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(1)" id="1"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(2)" id="2"></td>
+            </tr>
+            <tr>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(3)" id="3"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(4)" id="4"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(5)" id="5"></td>
+            </tr>
+            <tr>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(6)" id="6"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(7)" id="7"></td>
+                <td><img src="img/blank.bmp" onclick="game.onClickBoard(8)" id="8"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

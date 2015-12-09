@@ -1,0 +1,15 @@
+div#game_container
+{
+    width:225px;
+}
+p#duration_label
+{
+    display:inline;
+    text-align:right;
+}
+p#turn_label
+{
+    vertical-align:top;
+    display:inline;
+    font-size:24px;
+}
